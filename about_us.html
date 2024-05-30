@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact_Page.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!------------------------- About us -------------------------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are world's Largest University</h1>
+                <p>Welcome to [University Name], where academic excellence meets community spirit. With a commitment to fostering innovation, critical thinking, and personal growth, we provide a dynamic learning environment that empowers students to thrive. </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-------------------------------- Campus------------------------------------>
+   
+    <!-------------------------------- facilities ------------------------------------>
+    
+    <!-------------------------------- Testimonials ------------------------------------>
+    
+        <!-------------------------------- Call to action------------------------------------>
+
+     <!-------------------------------- Footer ------------------------------------>
+    <section class="footer">
+        <h4>
+            About us
+        </h4>
+        <p>With a commitment to fostering innovation, critical thinking, and personal growth, we provide a dynamic learning environment that empowers students to thrive.<br> Our dedicated faculty, state-of-the-art facilities, and diverse range of programs ensure that every student receives a top-tier education tailored to their unique interests and aspirations.<br> Join us as we embark on a journey of discovery, collaboration, and achievement. Welcome to the family.</p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fa-regular fa-heart"></i> by Tulsi bhushan</p>
+    </section>
+     <!-------------------------------- ------------------------------------>
+    
+    <!-------------------------------- Script ------------------------------------>
+    <script>
+        var navlinks =document.getElementById("nav-links");
+        function showMenu(){
+            navlinks.style.right='0';
+        }
+        function hideMenu(){
+            navlinks.style.right='-250px';
+        }
+    </script>
+</body>
+</html>

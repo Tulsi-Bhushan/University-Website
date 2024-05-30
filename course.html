@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact_Page.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-------------------------Our courses-------------------------->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>We offer a variety of courses ranging from engineering to arta and commerce. We specialise in Iot, Software, hisotry, trading, stock market and electronics domain.</p>
+        <div class="row">
+            <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Embark on a transformative educational journey within our course area, where academic excellence meets real-world impact. Our comprehensive curriculum is designed to cultivate critical thinking, creativity, and problem-solving skills across various fields of study. Whether you're drawn to the depths of social sciences, the frontiers of healthcare and medicine, or the complexities of environmental sustainability, our dedicated faculty and state-of-the-art facilities provide the ideal platform for exploration and discovery. Join a vibrant community of scholars and practitioners committed to advancing knowledge, fostering innovation, and making a meaningful difference in the world.</p>    
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Explore our diverse range of academic disciplines designed to inspire and empower the next generation of leaders, thinkers, and innovators. From the foundations of liberal arts to the cutting-edge realms of technology and sciences, our course area offers a dynamic environment where students engage in rigorous intellectual inquiry, hands-on learning experiences, and collaborative projects. Whether you're passionate about delving into the complexities of literature and philosophy, mastering the intricacies of engineering and computer science, or shaping the future through business and entrepreneurship, our university provides a rich tapestry of programs tailored to unleash your full potential and prepare you for success in a rapidly evolving world.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Discover your passion and chart your path to success through our diverse array of courses spanning arts, humanities, and sciences. At our university, we believe in the power of interdisciplinary learning to spark curiosity and drive meaningful change. Whether you're intrigued by the intersections of culture and society, fascinated by the wonders of the natural world, or captivated by the possibilities of digital media and communication, our course area offers a blend of traditional wisdom and contemporary insights to inspire lifelong learning and personal growth. Unleash your curiosity, expand your horizons, and embark on a journey of intellectual exploration that will shape your future endeavors and enrich your life.</p></div>
+    </div>
+    </section>
+    <!-------------------------------- Campus------------------------------------>
+   
+     <!-------------------------------- facilities ------------------------------------>
+     <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Our university offers top-notch facilities, including modern classrooms, specialized labs, and an extensive library. Students enjoy access to recreational amenities and comfortable on-campus housing. We're dedicated to providing an environment that supports academic success and fosters a vibrant campus community.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png" alt="">
+            <h3>World class Library</h3>
+            <p>Our library is the hub of knowledge on campus, offering a vast array of resources across disciplines.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png" alt="">
+            <h3>Largest playground</h3>
+            <p>Our playground offers a fun and safe space for students to play and exercise, featuring diverse play equipment and supervised activities.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png" alt="">
+            <h3>Tasty and healthy food</h3>
+            <p>Our cafeteria offers tasty meals, snacks, and a welcoming atmosphere for students to dine and socialize.</p>
+        </div>
+    </div>
+    </section>
+    <!-------------------------------- Testimonials ------------------------------------>
+    
+        <!-------------------------------- Call to action------------------------------------>
+
+     <!-------------------------------- Footer ------------------------------------>
+    <section class="footer">
+        <h4>
+            About us
+        </h4>
+        <p>With a commitment to fostering innovation, critical thinking, and personal growth, we provide a dynamic learning environment that empowers students to thrive.<br> Our dedicated faculty, state-of-the-art facilities, and diverse range of programs ensure that every student receives a top-tier education tailored to their unique interests and aspirations.<br> Join us as we embark on a journey of discovery, collaboration, and achievement. Welcome to the family.</p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fa-regular fa-heart"></i> by Tulsi bhushan</p>
+    </section>
+     <!-------------------------------- ------------------------------------>
+    
+    <!-------------------------------- Script ------------------------------------>
+    <script>
+        var navlinks =document.getElementById("nav-links");
+        function showMenu(){
+            navlinks.style.right='0';
+        }
+        function hideMenu(){
+            navlinks.style.right='-250px';
+        }
+    </script>
+</body>
+</html>
